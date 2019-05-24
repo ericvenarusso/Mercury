@@ -7,8 +7,6 @@ jobs:
   build:
     steps:
       - run:
-	name: Tests
-	shell: /bin/sh
         command: |
 	  echo Running test
           python3 -m unittest discover -s tests -p *_test.py
