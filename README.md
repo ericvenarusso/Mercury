@@ -2,7 +2,10 @@
 
 ![CircleCI](https://circleci.com/gh/ericvenarusso/Mercury/tree/master.svg?style=svg&circle-token=0524196545e16836639b7016a7eaacbb3c08087f)
 
-How to deploy a Machine Learning model
+![Mercury](https://www.mitologiaonline.com/wp-content/uploads/2016/06/deus-hermes.jpg)
+</br>
+</br>
+How to deploy a Machine Learning model.
 
 ## Installation
 __Install packages__ </br>
