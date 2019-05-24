@@ -22,4 +22,4 @@ s3 = AWSTools(
      )
 
 # Upload the preprocess dataframe
-s3.upload('data/iris_processed.csv', os.environ['BUCKET_NAME'], 'iris.csv')
+s3.upload('data/iris_processed.csv', os.environ['BUCKET_DATA'], 'iris.csv')

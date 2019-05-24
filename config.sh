@@ -5,3 +5,6 @@ wget -P data/ https://pkgstore.datahub.io/machine-learning/iris/iris_csv/data/8b
 
 # Change file name
 mv data/iris_csv.csv data/iris.csv
+
+# Create folder model
+mkdir model
