@@ -4,7 +4,12 @@ jobs:
     working_directory: ~/circleci-demo-python-django
     docker:
       - image: circleci/python:3.6.4
-    steps:
+  steps:
+    - run:
+          name: Install Dependencies
+          command: |
+            sudo pip install nosetests
+
      - run:
          name: Tests
          command: |
