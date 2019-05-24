@@ -15,3 +15,12 @@ __Configs__ </br>
 </br>
 __Tests__ </br>
 `nosetests`
+
+## Execution
+__Pre Process__ </br>
+`python data_preprocess.py`
+</br>
+</br>
+
+__Train__ </br>
+`python train.py`
