@@ -8,7 +8,6 @@ jobs:
          name: Tests
          command: |
            echo 'Running tests'
-
-           echo 'Mltools test'
-           python3 -m unittest tests.ml_tools_test
+           TESTFILES=$(circleci tests glob 'tests/**.py')
+           python -m unittest ${TESTFILES}
 
