@@ -44,3 +44,22 @@ class AWSTools:
         """
 
         self.client.upload_file(file_path, bucket_name, file_name)
+    
+    def download(self, bucket_name, file_name, file_path):
+        """
+        Download a file to AWS S3.
+        
+        Parameters
+        ----------
+        bucket_name: string
+            String that indentify AWS S3 Bucket.
+
+        file_name: string
+            String that identify the name of the file that
+            will be downloaded on S3.
+        
+        file_path : string
+            String that indetify the file path.
+        """
+
+        self.client.download_file(bucket_name, file_name, file_path)
