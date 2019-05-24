@@ -8,7 +8,7 @@ jobs:
          name: Tests
          command: |
            echo 'Install python packages'
-	   sudo apt-get install python-dev
+           sudo apt-get install python-dev
 
            echo 'Install Dependencies'
            sudo pip install -r requirements.txt
