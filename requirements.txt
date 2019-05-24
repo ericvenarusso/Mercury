@@ -1,5 +1,6 @@
 # Data Packages
 pandas
+numpy
 
 #Test Packages
 unittest
