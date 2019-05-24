@@ -8,5 +8,7 @@ jobs:
          name: Tests
          command: |
            echo 'Running tests'
-           python -m unittest tests/ml_tools_test.py
+
+           echo 'Mltools test'
+           python -m unittest tests.ml_tools_test
 
