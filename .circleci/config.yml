@@ -10,5 +10,5 @@ jobs:
            echo 'Running tests'
 
            echo 'Mltools test'
-           python -m unittest tests.ml_tools_test
+           python3 -m unittest tests.ml_tools_test
 
