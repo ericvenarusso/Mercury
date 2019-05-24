@@ -3,3 +3,4 @@ pandas
 
 #Test Packages
 unittest
+nosetests
