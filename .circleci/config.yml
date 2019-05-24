@@ -1,14 +1,13 @@
-version: 2
+version: 2.0
 jobs:
-  build:
-    docker:
-      - image: circleci/python:3.6.4
-  steps:
-      - run:
-          name: Tests  
-          command: |
+ build:
+   docker:
+     - image: circleci/python:3.6.4
+   steps:
+     - run:
+         name: Tests
+         command: |
             echo 'Install Dependecies'
             sudo pip install nosetests
             echo 'Running tests'
             nosetests tests
-
