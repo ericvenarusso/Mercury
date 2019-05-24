@@ -8,6 +8,6 @@ jobs:
          name: Tests
          command: |
             echo 'Install Dependecies'
-            sudo pip install nosetests
+            sudo pip install nose
             echo 'Running tests'
             nosetests tests
