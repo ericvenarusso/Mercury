@@ -2,11 +2,17 @@ version: 2.0
 jobs:
  build:
    docker:
-     - image: circleci/node:10-browsers
-   steps:
+     - image: circleci/python:3.6.4
+ 
+  steps:
+ 
+    - run:
+         name: Python Dependencies
+         command: |
+           pip install nose
+
      - run:
          name: Tests
          command: |
            echo 'Running tests'
            nosetests tests
-
