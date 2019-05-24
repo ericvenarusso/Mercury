@@ -5,13 +5,11 @@ jobs:
     docker:
       - image: circleci/python:3.6.4
   steps:
-    - run:
-          name: Install Dependencies
-          command: |
-            sudo pip install nosetests
-
      - run:
          name: Tests
          command: |
+           echo 'Install Dependecies'
+           sudo pip install nosetests
+           
            echo 'Running tests'
            nosetests tests
