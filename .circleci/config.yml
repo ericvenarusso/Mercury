@@ -8,7 +8,7 @@ jobs:
          name: Tests
          command: |
            echo 'Install Dependencies'
-           pip install -r requirements.txt
+           sudo pip install -r requirements.txt
 
            echo 'Running tests'
            python -m unittest discover -s tests -p *_test.py
