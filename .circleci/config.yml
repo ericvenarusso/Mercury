@@ -11,7 +11,7 @@ jobs:
            sudo apt-get install python-dev
 
            echo 'Install Dependencies'
-           sudo pip install -r requirements.txt
+           pip install -r requirements.txt
 
            echo 'Running tests'
            python -m unittest discover -s tests -p *_test.py
