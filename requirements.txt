@@ -4,3 +4,9 @@ pandas
 #Test Packages
 unittest
 nosetests
+
+#AWS
+boto3
+
+#OS
+os
