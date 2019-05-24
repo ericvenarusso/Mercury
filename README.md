@@ -12,4 +12,4 @@ __Configs__ </br>
 </br>
 </br>
 __Tests__ </br>
-`./run_tests.sh`
+`nosetests`
