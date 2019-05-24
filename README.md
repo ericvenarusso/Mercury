@@ -1,5 +1,6 @@
 # Mercury
-[![CircleCI](https://circleci.com/gh/ericvenarusso/Mercury.svg?style=svg)](https://circleci.com/gh/ericvenarusso/Mercury)
+
+![CircleCI](https://circleci.com/gh/ericvenarusso/Mercury/tree/master.svg?style=svg&circle-token=0524196545e16836639b7016a7eaacbb3c08087f)
 
 How to deploy a Machine Learning model
 
