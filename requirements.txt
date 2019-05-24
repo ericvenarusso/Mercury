@@ -3,14 +3,10 @@ pandas
 numpy
 
 #Test Packages
-unittest
-nosetests
+nose
 
 #AWS
 boto3
-
-#OS
-os
 
 #ML
 xgboost
