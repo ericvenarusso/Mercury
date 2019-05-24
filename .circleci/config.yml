@@ -9,5 +9,6 @@ jobs:
          command: |
             echo 'Install Dependecies'
             sudo pip install nose
+            ls
             echo 'Running tests'
             nosetests
