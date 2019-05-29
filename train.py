@@ -3,6 +3,7 @@ from tools.aws_tools import AWSTools
 from tools.ml_tools import MlTools
 
 import pandas as pd
+import pickle
 import os
 
 # AWS Client config
@@ -25,7 +26,7 @@ X, y = MlTools.separe_columns(data, ['sepallength', 'sepalwidth', 'petallength',
 model, results = Classifiers.XGB_classifier(X, y)
 
 # Save the model local
-model.save_model('model/iris_xgboost.model')
+pickle.dump(bst, open('model/iris_xgboost.model','wb'))
 
 # Upload model to S3
 s3.upload('model/iris_xgboost.model', os.environ['BUCKET_MODEL'], 'iris_xgboost.model')
